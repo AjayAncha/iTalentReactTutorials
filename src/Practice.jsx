@@ -15,7 +15,6 @@ export default function Practice() {
                 <div className='message-content'>
                     <h5>{msg.id}</h5>
                     <div className='message-subject'>{msg.subject}</div>
-                    <div className='message-body'>{msg.body}</div>
                     <div className='message-boardtiitle'> <b>{msg.board.id}</b> </div>
 
                 </div>

@@ -75,3 +75,26 @@
 .message-subject {
   padding: 0 100px;
 }
+.api-message-details{
+  border: 2px solid red;
+  width: 145px;
+}
+.popup-message-details{
+  display: none;
+}
+.msg_active{
+  display: block;
+
+}
+.modelbox_main{
+    width: 30%;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #ff8fab;
+    background-color: #f1faee;
+}
